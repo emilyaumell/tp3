@@ -1,22 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 li {
-  font-family: Georgia;
+  font-family: Arial;
 }
 
 #ingredients li { 
   font-family: Arial;
 }
 
-#ingredients li span {
-  font-style: italic;
-  color: #999;
-}
-
-#equipment li:nth-child(3) {
-  color: red;
-}
-
 h1 {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 45px;
+  color: #c74a10;
+   
+}
+
+h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+p {
+  font-family: Arial;
+  color: pink;
+}
+
+#grill {
+  color: red;
 }
